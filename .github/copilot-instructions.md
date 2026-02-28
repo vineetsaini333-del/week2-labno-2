@@ -89,6 +89,22 @@ so that `fetch` works correctly.
   the site – the portal simply offers download links.  You can ignore their
   contents unless asked to modify an assignment.
 
+### 📝 Assignment Markdown Guidelines
+
+- Each assignment is stored as `assignments/<id>/README.md` and is rendered by
+  `assets/pages/assignment.html` using **marked.js**.  Consistency here keeps
+the portal uniform.
+- Use the template at `templates/assignment-template.md` for all new exercises.
+  Do not remove or rename any of the top-level headings or icon syntax
+  (`📘`, `🎯`, `📝`).
+- **Title**: replace `[Assignment Title]` with a concise descriptive name.
+- **Objective**: 1–2 sentences summarizing the learning goal or skill.
+- **Tasks**: for each task, include a specific name, a clear description, and
+  bullet-pointed requirements.  Provide example input/output examples when
+  helpful.
+- Avoid adding extra sections unless the assignment instructions explicitly
+  call for them.
+
 ---
 
 ## ✅ When writing or modifying code for this repo, Copilot should
